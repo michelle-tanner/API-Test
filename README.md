@@ -16,12 +16,12 @@ Instructions to start using API calls with Postman and data stored in MondoDB Co
 *MongoDB Compass is a GUI tool for MongoDB. Makes interacting with the database more visual and intuitive*
 
 ## Overview
-### userController.js 
-This is an API controller. It contains the logic for handling HTTP requests that are related to creating the User object/model. It imports the userModel.js file to use for creating JSON files to add to the database. It contains functions that are separate API calls and does a task when called through a URL.
-### UserModel.js 
-Mongoose schema definition for the MongoDB database to use. It is the blueprint for objects being created and then stored in the MongoDB collection.
-### userRoutes.js
-This file is an API router and used to define the endpoints (URLs) for your API and link them to the correct functions that handle the logic. Like a traffic controller. When a request comes in, this file looks at the URL and the type of request(e.g. POST or GET) and directs it to the appropriate function in your API controller file.
+| FileName | Description | 
+|----------|-------------|
+| userController.js | <font size="5">This is some text with a specific size. This is an API controller. It contains the logic for handling HTTP requests that are related to creating the User object/model. It imports the userModel.js file to use for creating JSON files to add to the database. It contains functions that are separate API calls and does a task when called through a URL.</font> | 
+| UserModel.js | <font size="5">Mongoose schema definition for the MongoDB database to use. It is the blueprint for objects being created and then stored in the MongoDB collection.</font> | 
+| userRoutes.js | <font size="5">This file is an API router and used to define the endpoints (URLs) for your API and link them to the correct functions that handle the logic. Like a traffic controller. When a request comes in, this file looks at the URL and the type of request(e.g. POST or GET) and directs it to the appropriate function in your API controller file.</font> | 
+
 
 ## Instructions 
 1. npm install
