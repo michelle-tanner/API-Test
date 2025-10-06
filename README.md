@@ -1,7 +1,7 @@
-#Start Using APIs 
+# Start Using APIs 
 Instructions to start using API calls with Postman and data stored in MondoDB Compass. Following these instructions will help you understand how databases (data) are connected to APIs (API Layer).
 
-##Download 
+## Download 
 [Node.JS](https://nodejs.org/en/download)
 [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
